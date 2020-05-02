@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+ <environments default="development">
+
+    <environment id="development">
+
+      <transactionManager type="JDBC" />
+
+<dataSource type="com.Joker.core.TomCatDataSourceFactory">
+        <property name="driver" value="com.mysql.jdbc.Driver" />
+        <property name="url"
+          value="jdbc:mysql://188.166.249.66:3306/curie?autoReconnect=true&amp;useUnicode=yes&amp;useSSL=false" />
+        <property name="user" value="app" />
+       
+        <property name="password" value="apppwd" />
+        <property name="minPoolSize" value="20" />
+        <property name="maxPoolSize" value="100" />
+        <property name="acquireIncrement" value="5" />
+        <property name="testConnectionOnCheckin" value="false" />
+        <property name="testConnectionOnCheckout" value="true" />
+        <property name="preferredTestQuery" value="SELECT 1" />
+        <property name="maxIdleTime" value="3600" />
+        <property name="idleConnectionTestPeriod" value="3000" />
+        <property name="maxIdleTimeExcessConnections" value="4200" />
+
+      </dataSource>
+
+    </environment>
+
+  </environments>
+<!-- <mappers>
+    <mapper resource="SampleMapper.xml"/>
+  </mappers> -->
+</configuration> 

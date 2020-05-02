@@ -1,0 +1,6 @@
+com\Batman\batmanApplication.class
+com\Batman\core\TomCatDataSouceFactory.class
+com\Batman\api\batsample$SampleBuilder.class
+com\Batman\resources\batmanResource.class
+com\Batman\batmanConfiguration.class
+com\Batman\api\batsample.class

@@ -1,0 +1,6 @@
+com\Joker\api\sample.class
+com\Joker\core\TomCatDataSouceFactory.class
+com\Joker\JokerConfiguration.class
+com\Joker\JokerApplication.class
+com\Joker\resources\jokerResource.class
+com\Joker\api\sample$SampleBuilder.class
